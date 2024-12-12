@@ -4,7 +4,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { useTheme } from 'next-themes';
 import { Button } from '@/components/ui/button';
-import { Moon, Sun, Book, BookOpen, History, Heart, Mosque, Users, DollarSign } from 'lucide-react';
+import { Moon, Sun, Book, BookOpen, History, Heart, Home, Users, DollarSign } from 'lucide-react';
 import {
   NavigationMenu,
   NavigationMenuContent,
@@ -26,7 +26,7 @@ export function Navigation() {
             <NavigationMenuItem>
               <Link href="/" legacyBehavior passHref>
                 <NavigationMenuLink className="flex items-center space-x-2">
-                  <Mosque className="h-6 w-6" />
+                  <Home className="h-6 w-6" />
                   <span className="font-bold">Islamic Portal</span>
                 </NavigationMenuLink>
               </Link>
